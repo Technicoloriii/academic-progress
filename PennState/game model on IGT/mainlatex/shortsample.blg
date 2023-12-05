@@ -1,0 +1,19 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'shortsample.blg'
+[115] biber-MSWIN32:340> INFO - === 
+[152] Biber.pm:418> INFO - Reading 'shortsample.bcf'
+[282] Biber.pm:978> INFO - Found 2 citekeys in bib section 0
+[306] Biber.pm:4401> INFO - Processing section 0
+[320] Biber.pm:4592> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[366] bibtex.pm:1713> INFO - LaTeX decoding ...
+[393] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[441] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[441] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[441] Biber.pm:4221> INFO - Sorting list 'nyt/apasortcite//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[441] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[450] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[451] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[451] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[451] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[453] bbl.pm:654> INFO - Writing 'shortsample.bbl' with encoding 'UTF-8'
+[456] bbl.pm:757> INFO - Output to shortsample.bbl

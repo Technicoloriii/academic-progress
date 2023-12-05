@@ -1,0 +1,38 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+  \centering
+  \caption{Divide Grants by level of Restriction Attached}
+  \begin{tabular}{ccc}
+    \toprule
+    \multicolumn{3}{c}{Level of Restriction}                                   \\
+    \midrule
+    Low Restriction           & Medium Restriction & High Restriction          \\
+    \midrule
+    Formula Categorical Grant & Block Grant        & Project Categorical Grant \\
+    Open-ended Reimbursement  &                    &                           \\
+    General Revenue Sharing   &                    &                           \\
+    \bottomrule
+  \end{tabular}%
+  \label{igtkinds}%
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+  \centering
+  \caption{Divide Grants by Level of Restriction Attached}
+  \begin{tabular}{ccc}
+    \toprule
+    \multicolumn{3}{c}{Level of Restriction}                                   \\
+    \midrule
+    Low Restriction           & Medium Restriction & High Restriction          \\
+    \midrule
+    Formula Categorical Grant & Block Grant        & Project Categorical Grant \\
+    Open-ended Reimbursement  &                    &                           \\
+    General Revenue Sharing   &                    &                           \\
+    \bottomrule
+  \end{tabular}%
+  \label{Table 1.3}%
+\end{table*}

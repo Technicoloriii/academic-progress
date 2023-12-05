@@ -1,0 +1,35 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+  \centering
+  \includegraphics[scale=0.045]{Figures/tree.jpg}
+  \caption[Dynamic Game Tree of 3 players]{Dynamic Game Tree between Central and Subnational Governments
+    \texttt{} }
+  \label{dynamicgamenoutility}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+  \centering
+  \subfigure[]{
+    \includegraphics[width=0.61\textwidth]{Figures/cncic-i.JPG}}
+  \subfigure[]{
+    \includegraphics[width=0.61\textwidth]{Figures/cic-icn.JPG}}
+  \caption{When $c_N$ lies outside the range of $c_i$ and $c_{-i}$}
+  \label{cnci}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+  \centering
+  \subfigure[]{
+    \includegraphics[width=0.71\textwidth]{Figures/cicnc-i.JPG}}
+  \subfigure[]{
+    \includegraphics[width=0.71\textwidth]{Figures/cicnc-i2.JPG}}
+  \caption{When $c_N$ lies between $c_i$ and $c_i$}
+  \label{cnci2}
+\end{figure*}
