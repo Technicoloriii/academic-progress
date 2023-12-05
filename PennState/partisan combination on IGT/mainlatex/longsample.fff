@@ -1,0 +1,62 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+  \centering
+  \includegraphics[scale=1]{Figures/IGT and factors.jpg}
+  \caption[IGT and Factors Scatter Plot]{Factor and IGT Scatter Plot
+    \texttt{} }
+  \label{Figure 2.3}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+  \centering
+  \includegraphics[scale=0.7]{Figures/heatmap.png}
+  \caption[Heatmap of the Social Characteristics]{Heatmap of the Social Characteristics
+    \texttt{} }
+  \label{heatmap}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+  \centering  %居中
+  \subfigure[Histgram]{   %第一张子图
+    \begin{minipage}{7cm}
+      \centering    %子图居中
+      \includegraphics[scale=0.2]{Figures/contribution.png}  %以pic.jpg的0.5倍大小输出
+    \end{minipage}
+  }
+  \subfigure[Line]{ %第二张子图
+    \begin{minipage}{7cm}
+      \centering    %子图居中
+      \includegraphics[scale=0.2]{Figures/contribution2.png}%以pic.jpg的0.5倍大小输出
+    \end{minipage}
+  }
+  \caption[Principle Components Contribution]{Principle Components Contribution}    %大图名称
+  \label{principlecomponentcontribution}    %图片引用标记
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+  \centering  %居中
+  \subfigure[2 Principle Components Analysis Scatter]{   %第一张子图
+    \begin{minipage}{7cm}
+      \centering    %子图居中
+      \includegraphics[scale=0.45]{Figures/pca.png}  %以pic.jpg的0.5倍大小输出
+    \end{minipage}
+  }
+  \subfigure[3 principle Components Analysis Scatter]{ %第二张子图
+    \begin{minipage}{7cm}
+      \centering    %子图居中
+      \includegraphics[scale=0.45]{Figures/pca_3d.png}%以pic.jpg的0.5倍大小输出
+    \end{minipage}
+  }
+  \caption[Principle Components Analysis Scatter Plot]{Social Characteristics Principle Components Analysis Scatter Plot}    %大图名称
+  \label{Figure 2.2}    %图片引用标记
+\end{figure*}
