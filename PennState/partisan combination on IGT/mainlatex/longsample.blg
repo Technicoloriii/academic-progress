@@ -1,0 +1,21 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'longsample.blg'
+[145] biber-MSWIN32:340> INFO - === 
+[178] Biber.pm:418> INFO - Reading 'longsample.bcf'
+[294] Biber.pm:978> INFO - Found 26 citekeys in bib section 0
+[313] Biber.pm:4401> INFO - Processing section 0
+[327] Biber.pm:4592> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[381] bibtex.pm:1713> INFO - LaTeX decoding ...
+[567] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[711] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[711] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[711] Biber.pm:4221> INFO - Sorting list 'nyt/apasortcite//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[711] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[754] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[755] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[755] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[755] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[776] bbl.pm:654> INFO - Writing 'longsample.bbl' with encoding 'UTF-8'
+[803] bbl.pm:757> INFO - Output to longsample.bbl
+[803] Biber.pm:130> WARN - Duplicate entry key: 'bednar2007credit' in file 'bibliography.bib', skipping ...
+[803] Biber.pm:132> INFO - WARNINGS: 1

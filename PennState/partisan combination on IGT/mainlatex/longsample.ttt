@@ -1,0 +1,236 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+  \centering
+  \caption{Divide Grants by level of Restriction Attached}
+  \begin{tabular}{ccc}
+    \toprule
+    \multicolumn{3}{c}{Level of Restriction}                                   \\
+    \midrule
+    Low Restriction           & Medium Restriction & High Restriction          \\
+    \midrule
+    Formula Categorical Grant & Block Grant        & Project Categorical Grant \\
+    Open-ended Reimbursement  &                    &                           \\
+    General Revenue Sharing   &                    &                           \\
+    \bottomrule
+  \end{tabular}%
+  \label{igtkinds}%
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+  \centering
+  \caption{Divide Grants by Form of Administrative Procedure}
+  \begin{tabular}{clc}
+    \toprule
+    \multicolumn{3}{c}{Form of Administrative Procedure}                                                                                                     \\
+    \midrule
+    \multicolumn{1}{p{9.645em}}{ Submitting Request} & \multicolumn{1}{p{10.285em}}{               By Formula} & \multicolumn{1}{p{10.855em}}{Reimbursement} \\
+    \midrule
+    \multicolumn{1}{l}{Competitive Grants}           & Formula grants                                          & Project Categorical Grant                   \\
+                                                     & Formula-project grants                                  &                                             \\
+    \bottomrule
+  \end{tabular}%
+  \label{Table 1.4}%
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[H]
+  \centering
+  \caption{Branches and Levels Combination}
+  \begin{tabular}{cp{7.145em}p{8.43em}p{6.145em}}
+    \toprule
+    \multicolumn{2}{c}{\multirow{2}[4]{*}{}}       & \multicolumn{2}{p{14.575em}}{Branches}                 \\
+    \cmidrule{3-4}    \multicolumn{2}{c}{}         & administrative                         & house         \\
+    \midrule
+    \multicolumn{1}{c}{\multirow{2}[4]{*}{Levels}} & federal                                & $u_1$ & $u_2$ \\
+    \cmidrule{2-4}                                 & state level                            & $s_1$ & $s_2$ \\
+    \bottomrule
+  \end{tabular}%
+  \label{Table 2.6}%
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+  \centering
+  \caption{Variables and Operation}
+  \begin{tabular}{lcp{12.715em}p{6.145em}}
+    \toprule
+    \multicolumn{2}{p{9.93em}}{Variables }                        & Definition & Operation                                                                                    \\
+    \midrule
+    \multicolumn{1}{p{4.715em}}{Dependent Variable}               & lg(igt)    & IGT from federal to state i                               & Log                              \\
+    \midrule
+    \multicolumn{1}{l}{\multirow{2}[4]{*}{Independent Variables}} & c          & Combinations of levels, branches and parties.             & \multirow{2}[4]{*}{No operation} \\
+    \cmidrule{2-3}                                                & p          & Dummies to identify i is democratic, republican or swing. & \multicolumn{1}{c}{}             \\
+    \midrule
+    \multicolumn{1}{l}{\multirow{6}[12]{*}{Control Variables}}    & log(gdp)   & \multicolumn{1}{l}{Real GDP}                              & \multirow{4}[8]{*}{Log }         \\
+    \cmidrule{2-3}                                                & log(pl)    & \multicolumn{1}{l}{Population }                           & \multicolumn{1}{c}{}             \\
+    \cmidrule{2-3}                                                & wapw       & Working age population weight                             & \multicolumn{1}{c}{}             \\
+    \cmidrule{2-3}                                                & mhi        & State median household income                             & \multicolumn{1}{c}{}             \\
+    \cmidrule{2-4}                                                & ur         & unemployment rate                                         & No operation                     \\
+    \cmidrule{2-4}                                                & prm        & public road mileage                                       & Log                              \\
+    \bottomrule
+  \end{tabular}%
+  \label{Table 2.5}%
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+  \caption{States Sample and Grouping}
+  \begin{tabular}{p{7.57em}cc}
+    \toprule
+    States         & \multicolumn{1}{p{7.93em}}{Group}                    & \multicolumn{1}{p{6.855em}}{Code} \\
+    \midrule
+    Wyoming        & \multicolumn{1}{c}{\multirow{5}[2]{*}{Red States}}   & \multirow{5}[2]{*}{1}             \\
+    Idaho          &                                                      &                                   \\
+    Kansas         &                                                      &                                   \\
+    Nebraska       &                                                      &                                   \\
+    North Dakota   &                                                      &                                   \\
+    \midrule
+    Maryland       & \multicolumn{1}{c}{\multirow{5}[2]{*}{Blue States}}  & \multirow{5}[2]{*}{2}             \\
+    Massachusetts  &                                                      &                                   \\
+    Rhode Island   &                                                      &                                   \\
+    New York State &                                                      &                                   \\
+    Washington     &                                                      &                                   \\
+    \midrule
+    Pennsylvania   & \multicolumn{1}{c}{\multirow{4}[2]{*}{Swing States}} & \multirow{4}[2]{*}{3}             \\
+    Nevada         &                                                      &                                   \\
+    Wisconsin      &                                                      &                                   \\
+    Ohio           &                                                      &                                   \\
+    \bottomrule
+  \end{tabular}%
+  \label{Table 2.3}%
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+  \centering
+  \caption{Social characteristics for Sample States}
+  \begin{tabular}{cp{6.43em}p{9.285em}p{5.855em}p{5.355em}}
+    \toprule
+    \multicolumn{1}{p{4em}}{Variables } & Definition                      & Operation          & Source                              & Time Period                  \\
+    \midrule
+    gdp                                 & \multicolumn{1}{c}{Real GDP}    & Log transformation & FRED                                & 2000-2019 annually collected \\
+    \midrule
+    lgp                                 & \multicolumn{1}{c}{Population } & Log transformation & Census of bureau                    & 2000-2019 annually collected \\
+    \midrule
+    wapw                                & Working age population weight   & No operation       & Census of bureau                    & 2000-2019 annually collected \\
+    \midrule
+    mhi                                 & State median household income   & Log transformation & Census of bureau                    & 2000-2019 annually collected \\
+    \midrule
+    ur                                  & unemployment rate               & No operation       & FRED                                & 2000-2019 annually collected \\
+    \midrule
+    prm                                 & public road mileage             & Log transformation & Bureau of transportation statistics & 2000-2019 annually collected \\
+    \bottomrule
+  \end{tabular}%
+  \label{Table 2.4}%
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+  \centering
+  \caption{Regression Result---part 1}
+  \begin{tabular}{cccc}
+    \toprule
+                                     & mdoel-1                      & model-2                       & model-3                      \\
+                                     & OLS                          & time fixed                    & state group fixed            \\
+    \midrule
+    \multicolumn{1}{p{4.215em}}{c2}  & \multicolumn{1}{c}{-0.00169} & \multicolumn{1}{c}{-0.00246}  & \multicolumn{1}{c}{-0.00169} \\
+                                     & (-0.52)                      & (-0.77)                       & (-0.52)                      \\
+    \multicolumn{1}{p{4.215em}}{c3}  & -0.00873**                   & -0.00751*                     & -0.00873**                   \\
+                                     & (-2.95)                      & (-2.49)                       & (-2.95)                      \\
+    \multicolumn{1}{p{4.215em}}{c4}  & \multicolumn{1}{c}{-0.00484} & \multicolumn{1}{c}{-0.00746}  & \multicolumn{1}{c}{-0.00484} \\
+                                     & (-1.21)                      & (-1.86)                       & (-1.21)                      \\
+    \multicolumn{1}{p{4.215em}}{c5}  & \multicolumn{1}{c}{0.00026}  & \multicolumn{1}{c}{0.0163}    & \multicolumn{1}{c}{0.00026}  \\
+                                     & \multicolumn{1}{c}{-0.06}    & \multicolumn{1}{c}{-1.39}     & \multicolumn{1}{c}{-0.06}    \\
+    \multicolumn{1}{p{4.215em}}{c6}  & \multicolumn{1}{c}{0.00216}  & \multicolumn{1}{c}{0.0119}    & \multicolumn{1}{c}{0.00216}  \\
+                                     & \multicolumn{1}{c}{-0.34}    & \multicolumn{1}{c}{-0.95}     & \multicolumn{1}{c}{-0.34}    \\
+    \multicolumn{1}{p{4.215em}}{c7}  & -0.0107**                    & \multicolumn{1}{c}{0.000572}  & -0.0107**                    \\
+                                     & (-2.80)                      & \multicolumn{1}{c}{-0.05}     & (-2.80)                      \\
+    \multicolumn{1}{p{4.215em}}{c8}  & -0.00946*                    & \multicolumn{1}{c}{0.00296}   & -0.00946*                    \\
+                                     & (-2.08)                      & \multicolumn{1}{c}{-0.25}     & (-2.08)                      \\
+    \multicolumn{1}{p{4.215em}}{c9}  & -0.00676**                   & \multicolumn{1}{c}{0.00384}   & -0.00676**                   \\
+                                     & (-3.31)                      & \multicolumn{1}{c}{-1.07}     & (-3.31)                      \\
+    \multicolumn{1}{p{4.215em}}{c10} & \multicolumn{1}{c}{-0.00588} & \multicolumn{1}{c}{-0.000158} & \multicolumn{1}{c}{-0.00588} \\
+                                     & (-1.43)                      & (-0.04)                       & (-1.43)                      \\
+    \multicolumn{1}{p{4.215em}}{c11} & \multicolumn{1}{c}{0.000423} & \multicolumn{1}{c}{0.00893}   & \multicolumn{1}{c}{0.000423} \\
+                                     & \multicolumn{1}{c}{-0.05}    & \multicolumn{1}{c}{-1.11}     & \multicolumn{1}{c}{-0.05}    \\
+    \multicolumn{1}{p{4.215em}}{c12} & -0.00898*                    & \multicolumn{1}{c}{0}         & -0.00898*                    \\
+                                     & (-2.44)                      & (.)                           & (-2.44)                      \\
+    \bottomrule
+  \end{tabular}%
+  \label{Table 2.7}%
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+  \centering
+  \caption{Regression Result---part 2}
+  \begin{tabular}{llll}
+    \toprule
+                                                        & \multicolumn{1}{p{7.93em}}{mdoel-1} & \multicolumn{1}{p{7.855em}}{model-2}     & \multicolumn{1}{p{7.855em}}{model-3}           \\
+                                                        & \multicolumn{1}{p{7.93em}}{OLS}     & \multicolumn{1}{p{7.855em}}{time fixed } & \multicolumn{1}{p{7.855em}}{state group fixed} \\
+    \midrule
+    \multicolumn{1}{p{8.355em}}{c13}                    & -0.00083                            & 0.00919                                  & -0.00083                                       \\
+                                                        & \multicolumn{1}{p{7.93em}}{(-0.20)} & -1.74                                    & \multicolumn{1}{p{7.855em}}{(-0.20)}           \\
+    \multicolumn{1}{p{8.355em}}{c14}                    & -0.00223                            & -0.000932                                & -0.00223                                       \\
+                                                        & \multicolumn{1}{p{7.93em}}{(-0.32)} & \multicolumn{1}{p{7.855em}}{(-0.14)}     & \multicolumn{1}{p{7.855em}}{(-0.32)}           \\
+    \multicolumn{1}{p{8.355em}}{c15}                    & -0.0136                             & -0.00713                                 & -0.0136                                        \\
+                                                        & \multicolumn{1}{p{7.93em}}{(-2.34)} & \multicolumn{1}{p{7.855em}}{(-1.15)}     & \multicolumn{1}{p{7.855em}}{(-2.34)}           \\
+    \multicolumn{1}{p{8.355em}}{c16}                    & -0.006                              & 0                                        & -0.006                                         \\
+                                                        & \multicolumn{1}{p{7.93em}}{(-1.40)} & \multicolumn{1}{p{7.855em}}{(.)}         & \multicolumn{1}{p{7.855em}}{(-1.40)}           \\
+    \multicolumn{1}{p{8.355em}}{Democratic}             & -0.00585                            & -0.0125                                  & 0                                              \\
+                                                        & \multicolumn{1}{p{7.93em}}{(-1.24)} & \multicolumn{1}{p{7.855em}}{(-2.60)}     & \multicolumn{1}{p{7.855em}}{(.)}               \\
+    \multicolumn{1}{p{8.355em}}{Swing}                  & -0.0175                             & -0.0224                                  & 0                                              \\
+                                                        & \multicolumn{1}{p{7.93em}}{(-5.90)} & \multicolumn{1}{p{7.855em}}{(-7.21)}     & \multicolumn{1}{p{7.855em}}{(.)}               \\
+    \multicolumn{1}{p{8.355em}}{Log(population)}        & -0.0569                             & -0.0548                                  & -0.0569                                        \\
+                                                        & \multicolumn{1}{p{7.93em}}{(-5.42)} & \multicolumn{1}{p{7.855em}}{(-4.46)}     & \multicolumn{1}{p{7.855em}}{(-5.42)}           \\
+    \multicolumn{1}{p{8.355em}}{working age population} & 0.0848                              & \multicolumn{1}{p{7.855em}}{0.318**}     & 0.0848                                         \\
+                                                        & -1.2                                & -3.21                                    & -1.2                                           \\
+    \bottomrule
+  \end{tabular}%
+  \label{Table 2.8}%
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+  \centering
+  \caption{Regression Result---part 3}
+  \begin{tabular}{p{9.285em}lll}
+    \toprule
+    \multicolumn{1}{c}{}    & \multicolumn{1}{p{7.645em}}{mdoel-1}    & \multicolumn{1}{p{8.57em}}{model-2}     & \multicolumn{1}{p{7.145em}}{model-3}           \\
+    \multicolumn{1}{c}{}    & \multicolumn{1}{p{7.645em}}{OLS}        & \multicolumn{1}{p{8.57em}}{time fixed } & \multicolumn{1}{p{7.145em}}{state group fixed} \\
+    \midrule
+    median household income & \multicolumn{1}{p{7.645em}}{-0.284***}  & \multicolumn{1}{p{8.57em}}{-0.311***}   & \multicolumn{1}{p{7.145em}}{-0.284***}         \\
+    \multicolumn{1}{r}{}    & \multicolumn{1}{p{7.645em}}{(-15.24)}   & \multicolumn{1}{p{8.57em}}{(-16.06)}    & \multicolumn{1}{p{7.145em}}{(-15.24)}          \\
+    unemployment rate       & \multicolumn{1}{p{7.645em}}{-0.00166**} & -0.000939                               & \multicolumn{1}{p{7.145em}}{-0.00166**}        \\
+    \multicolumn{1}{r}{}    & \multicolumn{1}{p{7.645em}}{(-2.79)}    & \multicolumn{1}{p{8.57em}}{(-1.13)}     & \multicolumn{1}{p{7.145em}}{(-2.79)}           \\
+    Log(GDP)                & \multicolumn{1}{p{7.645em}}{0.126***}   & \multicolumn{1}{p{8.57em}}{0.129***}    & \multicolumn{1}{p{7.145em}}{0.126***}          \\
+    \multicolumn{1}{r}{}    & -11.73                                  & -10.65                                  & -11.73                                         \\
+    Log(mileage)            & \multicolumn{1}{p{7.645em}}{-0.0180***} & \multicolumn{1}{p{8.57em}}{-0.0231***}  & \multicolumn{1}{p{7.145em}}{-0.0180***}        \\
+    \multicolumn{1}{r}{}    & \multicolumn{1}{p{7.645em}}{(-4.09)}    & \multicolumn{1}{p{8.57em}}{(-5.22)}     & \multicolumn{1}{p{7.145em}}{(-4.09)}           \\
+    Constant                & \multicolumn{1}{p{7.645em}}{0.123*}     & 0.018                                   & \multicolumn{1}{p{7.145em}}{0.116*}            \\
+    \multicolumn{1}{r}{}    & -2.29                                   & -0.3                                    & -2.14                                          \\
+    \midrule
+    Observations            & 294                                     & 294                                     & 294                                            \\
+    Adjusted R2             & 0.835                                   & 0.845                                   & 0.79                                           \\
+    \bottomrule
+  \end{tabular}%
+  \label{Table 2.9}%
+\end{table*}
